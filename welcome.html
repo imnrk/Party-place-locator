@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="logout.php">Logout</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="welcome.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="addcomment.html">Add a post</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="viewcomments.php">View posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard.php">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="suggestions.php">Suggestions</a>
+          </li>
+        </ul>
+        <form
+          class="form-inline my-2 my-lg-0"
+          action="search.php"
+          method="POST"
+        >
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            name="search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+  </head>
+  <body class="text-center" style="text-align: center;">
+    <div class="col-sm-12" style="text-align: center;padding: 150px">
+      <h1 class="h3 mb-3 font-weight-normal">
+        Welcome to Party places! Get to know where the best parties in town are
+        happening!
+      </h1>
+    </div>
+  </body>
+</html>
